@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="Aplicativo de previsão do tempo em Js">
+    <meta name="keywords" content="Aplicativo de previsão do tempo">
+    <meta name="Author" content="Caio Monte Santo Barbosa">
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" href="img/iconePrevisaoDoTempo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <!--Link do video no youtube-->
+    <!--https://www.youtube.com/watch?v=MIYQR-Ybrn4&list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9-->
+
+    <h1 class="titulo">PREVISÃO DO TEMPO</h1>
+    <hr  class="divisao">
+    <div class="card">
+        <div class="search">
+            <input type="text" name="city" id="cityName" placeholder="Nome da Cidade" spellcheck="false">
+            <button class="btnLupa"><img src="img/search.png" alt="Lupa de pesquisa"></button>
+        </div>
+        <div class="error">
+            <p>Esse lugar não existe</p>
+        </div>
+        <div class="weather">
+            <img src="img/rain.png" alt="icone de chuva" class="weather-icon">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">São Paulo</h2>
+
+            <div class="details">
+                <div class="col">
+                    <img src="img/humidity.png" alt="Imagem de umidade de ar">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Umidade</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/wind.png" alt="icone vento">
+                    <div>
+                        <p class="wind">15 Km/h</p>
+                        <p>Vel do Vento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
